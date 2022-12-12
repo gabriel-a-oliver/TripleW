@@ -830,9 +830,3 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.12.12-23.28.54:006][580]LogShaderCompilers: Display: ================================================
 [2022.12.12-23.29.20:011][646]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
 [2022.12.12-23.29.20:015][646]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
-[2022.12.12-23.29.25:850][646]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
-[2022.12.12-23.29.25:850][646]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.037956s
-[2022.12.12-23.29.26:182][646]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.003083s (0.978641s overbudget)
-[2022.12.12-23.29.26:240][646]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2022.12.12-23.29.26:498][647]LogSlate: Took 0.016402 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2022.12.12-23.29.30:524][742]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
