@@ -2432,3 +2432,408 @@ Script Stack (0 frames):
 [2022.12.14-23.42.19:791][906]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
 [2022.12.14-23.42.19:800][906]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
 [2022.12.14-23.42.19:849][907]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.12.14-23.43.06:239][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.12.14-23.43.06:244][ 59]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/FirstPersonMap/B/7K/IRUGPRQHZCOEC0EGUL9GBW_Auto6
+[2022.12.14-23.43.06:244][ 59]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/IRUGPRQHZCOEC0EGUL9GBW_Auto60C56A51D4BA527EB3A6FF48E920F9F8B.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/Autosaves/Game/__ExternalActors__/Maps/FirstPersonMap/B/7K/IRUGPRQHZCOEC0EGUL9GBW_Auto6.uasset'
+[2022.12.14-23.43.06:246][ 59]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstPersonMap' took 0.056
+[2022.12.14-23.43.06:246][ 59]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.056
+[2022.12.14-23.48.23:781][518]LogEditorTransaction: Undo Move Node
+[2022.12.14-23.48.55:520][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.14-23.48.55:537][445]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.14-23.48.55:538][445]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_Gun75763761480A32CC979ABB830078DA63.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.14-23.48.55:576][445]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.14-23.48.55:576][445]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.14-23.48.56:850][568]BlueprintLog: New page: Compile BP_Gun
+[2022.12.14-23.48.56:949][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.12.14-23.49.17:180][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_BurstRifle" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset" SILENT=true
+[2022.12.14-23.49.17:185][718]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_BurstRifle
+[2022.12.14-23.49.17:187][718]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_BurstRifle3D7500FC430CA723FD3F58A0118D41C4.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset'
+[2022.12.14-23.49.17:219][718]AssetCheck: New page: Asset Save: BP_BurstRifle
+[2022.12.14-23.49.17:219][718]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_BurstRifle.BP_BurstRifle
+[2022.12.14-23.49.37:333][879]LogViewport: Scene viewport resized to 2455x1567, mode Windowed.
+[2022.12.14-23.49.59:565][225]BlueprintLog: New page: Compile BP_BurstRifle
+[2022.12.14-23.49.59:649][225]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.12.14-23.50.50:607][418]BlueprintLog: New page: Compile BP_BurstRifle
+[2022.12.14-23.50.50:611][418]LogClass: Warning: Type mismatch in delayBetweenShots of BP_BurstRifle_C - Previous (BoolProperty) Current(DoubleProperty) for package:  FObjectReader
+[2022.12.14-23.50.50:612][418]LogBlueprint: Warning: [AssetLog] C:\Users\olive\Documents\GitHub\TripleW\TripleW\Content\Blueprints\Weapons\BP_BurstRifle.uasset: [Compiler] Can't parse default value 'False' for  . Property: delayBetweenShots.
+[2022.12.14-23.50.50:700][418]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2022.12.14-23.50.55:434][833]LogViewport: Scene viewport resized to 2423x1567, mode Windowed.
+[2022.12.14-23.50.55:485][835]LogViewport: Scene viewport resized to 2297x1567, mode Windowed.
+[2022.12.14-23.50.55:527][837]LogViewport: Scene viewport resized to 2253x1567, mode Windowed.
+[2022.12.14-23.50.55:569][839]LogViewport: Scene viewport resized to 2239x1567, mode Windowed.
+[2022.12.14-23.51.23:681][606]LogViewport: Scene viewport resized to 2233x1567, mode Windowed.
+[2022.12.14-23.51.23:729][608]LogViewport: Scene viewport resized to 2166x1567, mode Windowed.
+[2022.12.14-23.51.23:774][610]LogViewport: Scene viewport resized to 2045x1567, mode Windowed.
+[2022.12.14-23.51.23:821][612]LogViewport: Scene viewport resized to 1923x1567, mode Windowed.
+[2022.12.14-23.51.23:864][614]LogViewport: Scene viewport resized to 1901x1567, mode Windowed.
+[2022.12.14-23.51.23:908][616]LogViewport: Scene viewport resized to 1896x1567, mode Windowed.
+[2022.12.14-23.51.23:952][618]LogViewport: Scene viewport resized to 1885x1567, mode Windowed.
+[2022.12.14-23.51.23:984][619]LogViewport: Scene viewport resized to 1880x1567, mode Windowed.
+[2022.12.14-23.51.24:011][620]LogViewport: Scene viewport resized to 1876x1567, mode Windowed.
+[2022.12.14-23.51.24:045][622]LogViewport: Scene viewport resized to 1872x1567, mode Windowed.
+[2022.12.14-23.51.24:097][625]LogViewport: Scene viewport resized to 1865x1567, mode Windowed.
+[2022.12.14-23.51.37:553][865]BlueprintLog: New page: Compile BP_BurstRifle
+[2022.12.14-23.51.37:645][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.12.14-23.53.00:962][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_BurstRifle" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset" SILENT=true
+[2022.12.14-23.53.00:968][955]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_BurstRifle
+[2022.12.14-23.53.00:969][955]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_BurstRifleE1E34B0048B7F525A080C4A8A24EAB94.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset'
+[2022.12.14-23.53.01:006][955]AssetCheck: New page: Asset Save: BP_BurstRifle
+[2022.12.14-23.53.01:006][955]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_BurstRifle.BP_BurstRifle
+[2022.12.14-23.53.13:768][224]BlueprintLog: New page: Compile BP_BurstRifle
+[2022.12.14-23.53.13:862][224]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2022.12.14-23.53.14:628][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_BurstRifle" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset" SILENT=true
+[2022.12.14-23.53.14:635][265]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_BurstRifle
+[2022.12.14-23.53.14:635][265]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_BurstRifle2BA0686D4378AB358F0E138D893AA0CF.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset'
+[2022.12.14-23.53.14:669][265]AssetCheck: New page: Asset Save: BP_BurstRifle
+[2022.12.14-23.53.14:669][265]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_BurstRifle.BP_BurstRifle
+[2022.12.14-23.53.28:759][563]BlueprintLog: New page: Compile BP_BurstRifle
+[2022.12.14-23.53.28:849][563]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.12.14-23.53.29:358][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_BurstRifle" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset" SILENT=true
+[2022.12.14-23.53.29:365][590]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_BurstRifle
+[2022.12.14-23.53.29:366][590]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_BurstRifle0527D66F438B5786D884089FA42284EE.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset'
+[2022.12.14-23.53.29:397][590]AssetCheck: New page: Asset Save: BP_BurstRifle
+[2022.12.14-23.53.29:397][590]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_BurstRifle.BP_BurstRifle
+[2022.12.14-23.54.23:971][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2022.12.14-23.54.23:976][471]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/FirstPersonMap/B/7K/IRUGPRQHZCOEC0EGUL9GBW_Auto7
+[2022.12.14-23.54.23:977][471]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/IRUGPRQHZCOEC0EGUL9GBW_Auto70352042C4A41070A53D3D1AC24F0B3D5.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/Autosaves/Game/__ExternalActors__/Maps/FirstPersonMap/B/7K/IRUGPRQHZCOEC0EGUL9GBW_Auto7.uasset'
+[2022.12.14-23.54.23:978][471]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstPersonMap' took 0.056
+[2022.12.14-23.54.23:978][471]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.056
+[2022.12.14-23.58.15:015][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_BurstRifle" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset" SILENT=true
+[2022.12.14-23.58.15:021][182]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_BurstRifle
+[2022.12.14-23.58.15:022][182]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_BurstRifle4A3180F3479F0485C51D76B070BAA2BE.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset'
+[2022.12.14-23.58.15:068][182]AssetCheck: New page: Asset Save: BP_BurstRifle
+[2022.12.14-23.58.15:069][182]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_BurstRifle.BP_BurstRifle
+[2022.12.14-23.59.24:316][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.14-23.59.24:336][752]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.14-23.59.24:337][752]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_GunCDD00399450A965FFC37B38A5B7A0893.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.14-23.59.24:370][752]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.14-23.59.24:370][752]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.14-23.59.25:028][822]BlueprintLog: New page: Compile BP_Gun
+[2022.12.14-23.59.25:044][822]LogBlueprint: Error: [AssetLog] C:\Users\olive\Documents\GitHub\TripleW\TripleW\Content\Blueprints\Weapons\BP_Gun.uasset: [Compiler] This blueprint (self) is not a PlayerCameraManager, therefore ' Target ' must have a connection.
+[2022.12.14-23.59.25:137][822]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.12.14-23.59.25:696][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.14-23.59.25:715][858]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.14-23.59.25:716][858]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_Gun81B7567E418B231A4B7F39BE61E5BDC6.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.14-23.59.25:747][858]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.14-23.59.25:747][858]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.15-00.03.10:992][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.15-00.03.11:010][706]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.15-00.03.11:012][706]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_GunF0CE810148DCB047C2C635BDE40934DF.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.15-00.03.11:051][706]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.15-00.03.11:051][706]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.15-00.03.12:915][857]BlueprintLog: New page: Compile BP_Gun
+[2022.12.15-00.03.13:014][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.12.15-00.03.26:687][112]BlueprintLog: New page: Compile BP_Gun
+[2022.12.15-00.03.26:788][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.12.15-00.03.27:737][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.15-00.03.27:755][167]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.15-00.03.27:757][167]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_GunAF8144A3482660099A8064BE71F0374A.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.15-00.03.27:790][167]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.15-00.03.27:790][167]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.15-00.05.53:629][929]BlueprintLog: New page: Compile BP_Gun
+[2022.12.15-00.05.53:726][929]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.12.15-00.05.54:614][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.15-00.05.54:634][977]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.15-00.05.54:635][977]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_Gun3D9BE5E24973F75CAC269B9829545833.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.15-00.05.54:676][977]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.15-00.05.54:676][977]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.15-00.06.06:885][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_BurstRifle" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset" SILENT=true
+[2022.12.15-00.06.06:892][239]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_BurstRifle
+[2022.12.15-00.06.06:893][239]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_BurstRifle204DA05E4DD2378E5520BEAF404E7BFD.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset'
+[2022.12.15-00.06.06:923][239]AssetCheck: New page: Asset Save: BP_BurstRifle
+[2022.12.15-00.06.06:923][239]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_BurstRifle.BP_BurstRifle
+[2022.12.15-00.06.07:411][291]BlueprintLog: New page: Compile BP_BurstRifle
+[2022.12.15-00.06.07:504][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.12.15-00.06.15:723][ 12]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.15-00.06.15:736][ 12]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.15-00.06.15:736][ 12]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.15-00.06.15:736][ 12]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.15-00.06.15:736][ 12]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.12.15-00.06.15:736][ 12]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.12.15-00.06.15:736][ 12]LogWorldPartition: Display: GetPartitionedActors took 99 us
+[2022.12.15-00.06.15:737][ 12]LogWorldPartition: Display: GenerateStreaming took 622 us
+[2022.12.15-00.06.15:737][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.06.15:737][ 12]PIE: New page: PIE session: FirstPersonMap (Dec 14, 2022, 8:06:15 AM)
+[2022.12.15-00.06.15:737][ 12]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonMap
+[2022.12.15-00.06.15:744][ 12]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.12.15-00.06.15:744][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006733s)
+[2022.12.15-00.06.15:744][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonMap.FirstPersonMap to /Game/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006845s)
+[2022.12.15-00.06.15:744][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.15-00.06.15:745][ 12]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.12.15-00.06.15:746][ 12]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.15-00.06.15:746][ 12]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.12.15-00.06.15:748][ 12]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.12.15-00.06.15:748][ 12]LogPlayLevel: PIE: World Init took: (0.004542s)
+[2022.12.15-00.06.15:799][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.12.15-00.06.15:803][ 12]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.12.15-00.06.15:803][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.06.15:803][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.06.15:803][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.06.15:803][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.06.15:803][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.06.15:803][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.15-00.06.15:803][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.06.15:803][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.06.15:804][ 12]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.06.15:804][ 12]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.06.15:804][ 12]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.06.15:806][ 12]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.15-00.06.15:836][ 12]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2022.12.15-00.06.15:836][ 12]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.06.15:836][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.06.15:836][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.06.15:839][ 12]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2022.12.15-00.06.15:839][ 12]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2022.12.15-00.06.15:841][ 12]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2022.12.15-00.06.15:841][ 12]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2022.12.15-00.06.15:841][ 12]LogInit: FAudioDevice initialized.
+[2022.12.15-00.06.15:841][ 12]LogAudio: Display: Audio Device (ID: 19) registered with world 'FirstPersonMap'.
+[2022.12.15-00.06.15:860][ 12]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.12.15-00.06.15:862][ 12]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.12.14-16.06.15
+[2022.12.15-00.06.15:863][ 12]LogWorld: Bringing up level for play took: 0.002707
+[2022.12.15-00.06.15:866][ 12]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2022.12.15-00.06.15:868][ 12]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.12.15-00.06.15:868][ 12]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.15-00.06.15:868][ 12]PIE: Server logged in
+[2022.12.15-00.06.15:869][ 12]PIE: Play in editor total start time 0.136 seconds.
+[2022.12.15-00.06.19:281][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.06.19:281][230]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonMap
+[2022.12.15-00.06.19:281][230]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.06.19:282][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.06.19:304][230]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.06.19:309][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.06.19:357][230]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.06.19:357][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.12.15-00.06.19:360][230]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.12.15-00.06.19:370][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.12.15-00.06.19:416][231]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.12.15-00.08.09:361][769]BlueprintLog: New page: Compile BP_Gun
+[2022.12.15-00.08.09:453][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2022.12.15-00.08.10:096][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.15-00.08.10:116][803]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.15-00.08.10:117][803]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_Gun76985AD4430BFAF05DBCBEA0AF7D786F.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.15-00.08.10:146][803]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.15-00.08.10:146][803]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.15-00.08.54:677][419]BlueprintLog: New page: Compile BP_Gun
+[2022.12.15-00.08.54:775][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.12.15-00.08.55:384][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.15-00.08.55:403][459]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.15-00.08.55:404][459]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_Gun1BE1DCFF4B3C52FC845914A15FD4CB3D.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.15-00.08.55:434][459]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.15-00.08.55:434][459]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.15-00.09.08:617][799]BlueprintLog: New page: Compile BP_Gun
+[2022.12.15-00.09.08:720][799]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.12.15-00.09.09:403][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_Gun" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset" SILENT=true
+[2022.12.15-00.09.09:422][836]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_Gun
+[2022.12.15-00.09.09:423][836]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_GunD912F6C6488E68694DC7B4BCE416A80A.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_Gun.uasset'
+[2022.12.15-00.09.09:451][836]AssetCheck: New page: Asset Save: BP_Gun
+[2022.12.15-00.09.09:451][836]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_Gun.BP_Gun
+[2022.12.15-00.09.11:160][965]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.15-00.09.11:172][965]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.15-00.09.11:172][965]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.15-00.09.11:172][965]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.15-00.09.11:172][965]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.12.15-00.09.11:172][965]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.12.15-00.09.11:172][965]LogWorldPartition: Display: GetPartitionedActors took 110 us
+[2022.12.15-00.09.11:173][965]LogWorldPartition: Display: GenerateStreaming took 637 us
+[2022.12.15-00.09.11:173][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.09.11:173][965]PIE: New page: PIE session: FirstPersonMap (Dec 14, 2022, 8:09:11 AM)
+[2022.12.15-00.09.11:173][965]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonMap
+[2022.12.15-00.09.11:181][965]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.12.15-00.09.11:181][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007083s)
+[2022.12.15-00.09.11:181][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonMap.FirstPersonMap to /Game/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007145s)
+[2022.12.15-00.09.11:181][965]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.15-00.09.11:182][965]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.12.15-00.09.11:183][965]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.15-00.09.11:183][965]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.12.15-00.09.11:184][965]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.12.15-00.09.11:185][965]LogPlayLevel: PIE: World Init took: (0.003755s)
+[2022.12.15-00.09.11:237][965]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.12.15-00.09.11:242][965]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.12.15-00.09.11:242][965]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.09.11:242][965]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.09.11:242][965]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.09.11:242][965]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.09.11:242][965]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.09.11:242][965]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.15-00.09.11:242][965]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.09.11:242][965]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.09.11:242][965]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.09.11:242][965]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.09.11:242][965]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.09.11:245][965]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.15-00.09.11:270][965]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2022.12.15-00.09.11:271][965]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.09.11:271][965]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.09.11:271][965]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.09.11:272][965]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2022.12.15-00.09.11:272][965]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2022.12.15-00.09.11:275][965]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2022.12.15-00.09.11:275][965]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2022.12.15-00.09.11:275][965]LogInit: FAudioDevice initialized.
+[2022.12.15-00.09.11:275][965]LogAudio: Display: Audio Device (ID: 20) registered with world 'FirstPersonMap'.
+[2022.12.15-00.09.11:292][965]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.12.15-00.09.11:294][965]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.12.14-16.09.11
+[2022.12.15-00.09.11:295][965]LogWorld: Bringing up level for play took: 0.002740
+[2022.12.15-00.09.11:298][965]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2022.12.15-00.09.11:301][965]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.12.15-00.09.11:301][965]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.15-00.09.11:301][965]PIE: Server logged in
+[2022.12.15-00.09.11:302][965]PIE: Play in editor total start time 0.133 seconds.
+[2022.12.15-00.09.21:600][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.21:600][630]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonMap
+[2022.12.15-00.09.21:600][630]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.09.21:601][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.21:624][630]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.09.21:629][630]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.21:677][630]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.21:677][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.12.15-00.09.21:679][630]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.12.15-00.09.21:690][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.12.15-00.09.21:741][631]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.12.15-00.09.50:415][724]BlueprintLog: New page: Compile BP_BurstRifle
+[2022.12.15-00.09.50:501][724]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2022.12.15-00.09.51:157][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapons/BP_BurstRifle" FILE="../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset" SILENT=true
+[2022.12.15-00.09.51:163][771]LogSavePackage: Moving output files for package: /Game/Blueprints/Weapons/BP_BurstRifle
+[2022.12.15-00.09.51:165][771]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/BP_BurstRifle233AE6EC4FEC0A82DDEE74A5C129F3A1.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Content/Blueprints/Weapons/BP_BurstRifle.uasset'
+[2022.12.15-00.09.51:199][771]AssetCheck: New page: Asset Save: BP_BurstRifle
+[2022.12.15-00.09.51:199][771]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Weapons/BP_BurstRifle.BP_BurstRifle
+[2022.12.15-00.09.52:592][901]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.15-00.09.52:604][901]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.15-00.09.52:604][901]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.15-00.09.52:604][901]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.15-00.09.52:604][901]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.12.15-00.09.52:604][901]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.12.15-00.09.52:604][901]LogWorldPartition: Display: GetPartitionedActors took 68 us
+[2022.12.15-00.09.52:605][901]LogWorldPartition: Display: GenerateStreaming took 434 us
+[2022.12.15-00.09.52:605][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.09.52:605][901]PIE: New page: PIE session: FirstPersonMap (Dec 14, 2022, 8:09:52 AM)
+[2022.12.15-00.09.52:605][901]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonMap
+[2022.12.15-00.09.52:612][901]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.12.15-00.09.52:612][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007394s)
+[2022.12.15-00.09.52:612][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonMap.FirstPersonMap to /Game/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007453s)
+[2022.12.15-00.09.52:613][901]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.15-00.09.52:613][901]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.12.15-00.09.52:614][901]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.15-00.09.52:614][901]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.12.15-00.09.52:616][901]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2022.12.15-00.09.52:616][901]LogPlayLevel: PIE: World Init took: (0.003745s)
+[2022.12.15-00.09.52:667][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.12.15-00.09.52:669][901]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.12.15-00.09.52:669][901]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.09.52:669][901]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.09.52:669][901]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.09.52:669][901]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.09.52:669][901]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.09.52:669][901]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.15-00.09.52:669][901]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.09.52:669][901]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.09.52:670][901]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.09.52:670][901]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.09.52:670][901]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.09.52:672][901]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.15-00.09.52:699][901]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2022.12.15-00.09.52:700][901]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.09.52:700][901]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.09.52:700][901]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.09.52:700][901]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2022.12.15-00.09.52:700][901]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2022.12.15-00.09.52:702][901]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2022.12.15-00.09.52:702][901]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2022.12.15-00.09.52:702][901]LogInit: FAudioDevice initialized.
+[2022.12.15-00.09.52:702][901]LogAudio: Display: Audio Device (ID: 21) registered with world 'FirstPersonMap'.
+[2022.12.15-00.09.52:798][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.52:798][901]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.12.15-00.09.52:803][901]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.12.14-16.09.52
+[2022.12.15-00.09.52:804][901]LogWorld: Bringing up level for play took: 0.004981
+[2022.12.15-00.09.52:807][901]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2022.12.15-00.09.52:810][901]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.12.15-00.09.52:810][901]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.15-00.09.52:812][901]PIE: Server logged in
+[2022.12.15-00.09.52:813][901]PIE: Play in editor total start time 0.212 seconds.
+[2022.12.15-00.09.52:825][901]LogViewport: Scene viewport resized to 1298x840, mode Windowed.
+[2022.12.15-00.09.54:990][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.54:990][ 19]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonMap
+[2022.12.15-00.09.54:990][ 19]LogSlate: Window 'TripleW Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.12.15-00.09.54:999][ 19]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.09.55:000][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.55:021][ 19]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.09.55:028][ 19]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.55:083][ 19]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.15-00.09.55:084][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.12.15-00.09.55:086][ 19]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.12.15-00.09.55:100][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.12.15-00.09.55:144][ 20]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.12.15-00.09.55:522][ 58]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.12.15-00.09.55:534][ 58]LogWorldPartition: Display: GenerateStreaming started...
+[2022.12.15-00.09.55:535][ 58]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.12.15-00.09.55:535][ 58]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.15-00.09.55:535][ 58]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.12.15-00.09.55:535][ 58]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.12.15-00.09.55:535][ 58]LogWorldPartition: Display: GetPartitionedActors took 92 us
+[2022.12.15-00.09.55:535][ 58]LogWorldPartition: Display: GenerateStreaming took 609 us
+[2022.12.15-00.09.55:535][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.15-00.09.55:536][ 58]PIE: New page: PIE session: FirstPersonMap (Dec 14, 2022, 8:09:55 AM)
+[2022.12.15-00.09.55:536][ 58]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonMap
+[2022.12.15-00.09.55:544][ 58]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.12.15-00.09.55:544][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007460s)
+[2022.12.15-00.09.55:544][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonMap.FirstPersonMap to /Game/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007533s)
+[2022.12.15-00.09.55:544][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.15-00.09.55:544][ 58]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.12.15-00.09.55:545][ 58]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.12.15-00.09.55:545][ 58]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.12.15-00.09.55:547][ 58]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.12.15-00.09.55:547][ 58]LogPlayLevel: PIE: World Init took: (0.002959s)
+[2022.12.15-00.09.55:596][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.12.15-00.09.55:597][ 58]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.12.15-00.09.55:597][ 58]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.15-00.09.55:597][ 58]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.15-00.09.55:597][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.15-00.09.55:597][ 58]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.15-00.09.55:597][ 58]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.15-00.09.55:597][ 58]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.15-00.09.55:597][ 58]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.15-00.09.55:597][ 58]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.15-00.09.55:597][ 58]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.15-00.09.55:597][ 58]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.15-00.09.55:598][ 58]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.15-00.09.55:600][ 58]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.15-00.09.55:626][ 58]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio(SST))
+[2022.12.15-00.09.55:628][ 58]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.15-00.09.55:628][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.15-00.09.55:628][ 58]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.15-00.09.55:628][ 58]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.12.15-00.09.55:628][ 58]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.12.15-00.09.55:631][ 58]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.12.15-00.09.55:631][ 58]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.12.15-00.09.55:631][ 58]LogInit: FAudioDevice initialized.
+[2022.12.15-00.09.55:631][ 58]LogAudio: Display: Audio Device (ID: 22) registered with world 'FirstPersonMap'.
+[2022.12.15-00.09.55:725][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.55:725][ 58]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.12.15-00.09.55:731][ 58]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.12.14-16.09.55
+[2022.12.15-00.09.55:731][ 58]LogWorld: Bringing up level for play took: 0.006411
+[2022.12.15-00.09.55:735][ 58]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2022.12.15-00.09.55:739][ 58]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2022.12.15-00.09.55:739][ 58]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.12.15-00.09.55:740][ 58]PIE: Server logged in
+[2022.12.15-00.09.55:741][ 58]PIE: Play in editor total start time 0.21 seconds.
+[2022.12.15-00.09.55:755][ 58]LogViewport: Scene viewport resized to 1304x880, mode Windowed.
+[2022.12.15-00.09.58:621][219]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.15-00.09.58:621][219]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonMap
+[2022.12.15-00.09.58:623][219]LogSlate: Window 'TripleW Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.12.15-00.09.58:634][219]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.09.58:635][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.58:654][219]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.15-00.09.58:661][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.09.58:712][219]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.12.15-00.09.58:715][219]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.12.15-00.09.58:725][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.12.15-00.09.58:770][220]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.12.15-00.10.01:444][497]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.12.15-00.10.01:444][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.15-00.10.39:913][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.12.15-00.10.39:929][680]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Maps/FirstPersonMap/B/7K/IRUGPRQHZCOEC0EGUL9GBW_Auto8
+[2022.12.15-00.10.39:929][680]LogSavePackage: Moving '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/IRUGPRQHZCOEC0EGUL9GBW_Auto810EDE9BC49CF5655BC49EEA2B477AA61.tmp' to '../../../../../../Users/olive/Documents/GitHub/TripleW/TripleW/Saved/Autosaves/Game/__ExternalActors__/Maps/FirstPersonMap/B/7K/IRUGPRQHZCOEC0EGUL9GBW_Auto8.uasset'
+[2022.12.15-00.10.39:932][680]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/FirstPersonMap' took 0.064
+[2022.12.15-00.10.39:932][680]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.064
+[2022.12.15-00.12.38:625][887]LogDerivedDataCache: C:/Users/olive/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.127 and deleted 0 file(s) with total size 0 MiB.
