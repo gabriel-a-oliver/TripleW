@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TripleW.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\olive\Documents\GitHub\TripleW\TripleW\Intermediate\Build\Win64\TripleWEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\olive\Documents\GitHub\TripleW\TripleW\Intermediate\Build\Win64\UnrealEditor\Development\TripleW\EmptyDummy.cpp.obj"
+"C:\Users\olive\Documents\GitHub\TripleW\TripleW\Intermediate\Build\Win64\UnrealEditor\Development\TripleW\TripleW.cpp.obj"
+"C:\Users\olive\Documents\GitHub\TripleW\TripleW\Intermediate\Build\Win64\UnrealEditor\Development\TripleW\Default.rc2.res"
+/OUT:"C:\Users\olive\Documents\GitHub\TripleW\TripleW\Intermediate\Build\Win64\UnrealEditor\Development\TripleW\UnrealEditor-TripleW.lib"

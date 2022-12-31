@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\olive\\documents\\github\\triplew\\triplew\\source\\triplew\\triplew.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\olive\\documents\\github\\triplew\\triplew\\intermediate\\build\\win64\\tripleweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\olive\\documents\\github\\triplew\\triplew\\intermediate\\build\\win64\\unrealeditor\\development\\triplew\\definitions.triplew.h",
+            "c:\\users\\olive\\documents\\github\\triplew\\triplew\\source\\triplew\\triplew.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

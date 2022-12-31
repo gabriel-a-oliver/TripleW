@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\olive\\Documents\\GitHub\\TripleW\\TripleW\\Source\\TripleW\\TripleW.Build.cs",
+		"C:\\Users\\olive\\Documents\\GitHub\\TripleW\\TripleW\\Plugins\\TagStateMachine\\Source\\TagStateMachine\\TagStateMachine.Build.cs",
+		"C:\\Users\\olive\\Documents\\GitHub\\TripleW\\TripleW\\Source\\TripleW.Target.cs",
+		"C:\\Users\\olive\\Documents\\GitHub\\TripleW\\TripleW\\Source\\TripleWEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}
