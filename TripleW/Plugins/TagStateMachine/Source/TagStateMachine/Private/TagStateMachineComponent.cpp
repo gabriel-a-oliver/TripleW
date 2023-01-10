@@ -16,22 +16,23 @@ UTagStateMachineComponent::UTagStateMachineComponent()
 
 bool UTagStateMachineComponent::SwitchState(FGameplayTag _StateTag)
 {
-	if (!_StateTag.MatchesTagExact(_StateTag))
+	if (!_StateTag.MatchesTagExact(StateTag))
 	{
 		bCanTickState = false;
 
 		EndState();
 
-		this->StateTag = _StateTag;
+		StateTag = _StateTag;
 		InitState();
 
 		bCanTickState = true;
 		if (StateChangedDelegate.IsBound())
 		{
-			StateChangedDelegate.Broadcast(_StateTag);
+			StateChangedDelegate.Broadcast(StateTag);
 		}
 		return true;
-	} else
+	}
+	else
 	{
 		if (bDebug)
 		{
