@@ -1,0 +1,27 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "b:\\harddrive_documents\\github\\triplew\\triplew\\plugins\\tagstatemachine\\source\\tagstatemachine\\private\\tagstatemachinecomponent.cpp",
+        "ProvidedModule": "",
+        "PCH": "b:\\harddrive_documents\\github\\triplew\\triplew\\intermediate\\build\\win64\\tripleweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "b:\\harddrive_documents\\github\\triplew\\triplew\\plugins\\tagstatemachine\\intermediate\\build\\win64\\unrealeditor\\development\\tagstatemachine\\definitions.tagstatemachine.h",
+            "b:\\harddrive_documents\\github\\triplew\\triplew\\plugins\\tagstatemachine\\source\\tagstatemachine\\public\\tagstatemachinecomponent.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\source\\runtime\\gameplaytags\\public\\gameplaytags.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\source\\runtime\\core\\public\\misc\\monolithicheaderboilerplate.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagsmanager.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\gameplaytagcontainer.generated.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\datatable.generated.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\gameplaytagsmanager.generated.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagassetinterface.h",
+            "d:\\ssd_programs\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\gameplaytagassetinterface.generated.h",
+            "b:\\harddrive_documents\\github\\triplew\\triplew\\plugins\\tagstatemachine\\intermediate\\build\\win64\\unrealeditor\\inc\\tagstatemachine\\tagstatemachinecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

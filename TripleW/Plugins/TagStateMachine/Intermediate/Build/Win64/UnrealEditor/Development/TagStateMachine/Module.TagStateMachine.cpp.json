@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "b:\\harddrive_documents\\github\\triplew\\triplew\\plugins\\tagstatemachine\\intermediate\\build\\win64\\unrealeditor\\development\\tagstatemachine\\module.tagstatemachine.cpp",
+        "ProvidedModule": "",
+        "PCH": "b:\\harddrive_documents\\github\\triplew\\triplew\\intermediate\\build\\win64\\tripleweditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "b:\\harddrive_documents\\github\\triplew\\triplew\\plugins\\tagstatemachine\\intermediate\\build\\win64\\unrealeditor\\development\\tagstatemachine\\definitions.tagstatemachine.h",
+            "b:\\harddrive_documents\\github\\triplew\\triplew\\plugins\\tagstatemachine\\source\\tagstatemachine\\private\\tagstatemachine.cpp",
+            "b:\\harddrive_documents\\github\\triplew\\triplew\\plugins\\tagstatemachine\\source\\tagstatemachine\\public\\tagstatemachine.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

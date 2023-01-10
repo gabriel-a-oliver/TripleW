@@ -14,13 +14,39 @@ UTagStateMachineComponent::UTagStateMachineComponent()
 }
 
 
+bool UTagStateMachineComponent::SwitchState(FGameplayTag _StateTag)
+{
+	if (!_StateTag.MatchesTagExact(_StateTag))
+	{
+		bCanTickState = false;
+
+		EndState();
+
+		this->StateTag = _StateTag;
+		InitState();
+
+		bCanTickState = true;
+		if (StateChangedDelegate.IsBound())
+		{
+			StateChangedDelegate.Broadcast(_StateTag);
+		}
+		return true;
+	} else
+	{
+		if (bDebug)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Couldn't switch state for %s because it ais already in %s"), *GetOwner()->GetName(), *_StateTag.ToString())
+		}
+	}
+	return false;
+}
+
 // Called when the game starts
 void UTagStateMachineComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
 	
+	SwitchState(InitialStateTag);
 }
 
 
@@ -30,5 +56,52 @@ void UTagStateMachineComponent::TickComponent(float DeltaTime, ELevelTick TickTy
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+
+	if (bCanTickState)
+	{
+		TickState(DeltaTime);
+	}
+
+	if (bDebug)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Red, FString::Printf(TEXT("Current State for %s: %s"), *GetOwner()->GetName(), *StateTag.ToString()));
+		if (StateHistory.Num() > 0)
+		{
+			for ( int32 i = 0; i < StateHistory.Num(); i++)
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Blue, FString::Printf(TEXT("%s"), *StateHistory[i].ToString()));
+			}
+		}
+	}
+}
+
+void UTagStateMachineComponent::InitState()
+{
+	if(InitStateDelegate.IsBound())
+	{
+		InitStateDelegate.Broadcast(StateTag);
+	}
+}
+
+void UTagStateMachineComponent::TickState(float DeltaTime)
+{
+	if(TickStateDelegate.IsBound())
+	{
+		TickStateDelegate.Broadcast(DeltaTime, StateTag);
+	}
+}
+
+void UTagStateMachineComponent::EndState()
+{
+	if (StateHistory.Num() >= StateHistoryLength)
+	{
+		StateHistory.RemoveAt(0);
+	}
+	StateHistory.Push(StateTag);
+	
+	if(EndStateDelegate.IsBound())
+	{
+		EndStateDelegate.Broadcast(StateTag);
+	}
 }
 

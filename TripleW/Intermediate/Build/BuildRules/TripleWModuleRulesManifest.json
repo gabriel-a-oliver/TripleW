@@ -1,12 +1,6 @@
 {
 	"SourceFiles": [
 		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Source\\TripleW\\TripleW.Build.cs",
-		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
-		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
-		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
-		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
-		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
-		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
 		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Plugins\\TagStateMachine\\Source\\TagStateMachine\\TagStateMachine.Build.cs",
 		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Source\\TripleW.Target.cs",
 		"B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Source\\TripleWEditor.Target.cs"
