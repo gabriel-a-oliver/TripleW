@@ -1,10 +1,10 @@
-﻿// Fill out your copyright notice in the Description page of Project Settings.
+// Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "TagStateMachine/Public/TagStateMachineComponent.h"
+#include "TagStateMachineComponent.h"
 
 // Sets default values for this component's properties
-UStateMachineComponent::UTagStateMachineComponent()
+UTagStateMachineComponent::UTagStateMachineComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
@@ -14,40 +14,13 @@ UStateMachineComponent::UTagStateMachineComponent()
 }
 
 
-bool UTagStateMachineComponent::SwitchState(FGameplayTag _StateTag)
-{
-	if (!_StateTag.MatchesTagExact(StateTag))
-	{
-		bCanTickState = false;
-
-		EndState();
-
-		StateTag = _StateTag;
-		InitState();
-
-		bCanTickState = true;
-		if (StateChangedDelegate.IsBound())
-		{
-			StateChangedDelegate.Broadcast(StateTag);
-		}
-		return true;
-	}
-	else
-	{
-		if (bDebug)
-		{
-			UE_LOG(LogTemp, Warning, TEXT("Couldn't switch state for %s because it is already in %s"), *GetOwner()->GetName(), *_StateTag.ToString());
-		}
-	}
-	return false;
-}
-
 // Called when the game starts
-void UStateMachineComponent::BeginPlay()
+void UTagStateMachineComponent::BeginPlay()
 {
 	Super::BeginPlay();
+
 	// ...
-	SwitchState(InitialStateTag);
+	
 }
 
 
@@ -56,52 +29,6 @@ void UTagStateMachineComponent::TickComponent(float DeltaTime, ELevelTick TickTy
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (bCanTickState)
-	{
-		TickState(DeltaTime);
-	}
-
-	if (bDebug)
-	{
-		GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Red, FString::Printf(TEXT("Current State for %s: %s"), *GetOwner()->GetName(), *StateTag.ToString()));
-
-		if (StateHistory.Num()>0)
-		{
-			for (int32 i = 0; i<StateHistory.Num();i++)
-			{
-				GEngine->AddOnScreenDebugMessage(-1, 0.0f, FColor::Blue, FString::Printf(TEXT("%s"), *StateHistory[i].ToString()));
-			}
-		}
-	}
 	// ...
 }
 
-void UTagStateMachineComponent::InitState()
-{
-	if (InitStateDelegate.IsBound())
-	{
- 
-	}
-}
-
-void UTagStateMachineComponent::TickState(float DeltaTime)
-{
-	if (TickStateDelegate.IsBound())
-	{
-		TickStateDelegate.Broadcast(DeltaTime, StateTag);
-	}
-}
-
-void UTagStateMachineComponent::EndState()
-{
-	if (StateHistory.Num()>=StateHistoryLength)
-	{
-		StateHistory.RemoveAt(0);
-	}
-	StateHistory.Push(StateTag);
-	
-	if (EndStateDelegate.IsBound())
-	{
-		EndStateDelegate.Broadcast(StateTag);
-	}
-}

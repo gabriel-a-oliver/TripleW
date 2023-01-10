@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TagStateMachine.cpp.obj": [
+			"TagStateMachine.cpp.obj",
+			"TagStateMachineComponent.cpp.obj"
+		],
+		"Module.TagStateMachine.gen.cpp.obj": [
+			"TagStateMachine.init.gen.cpp.obj",
+			"TagStateMachineComponent.gen.cpp.obj"
+		]
+	}
+}

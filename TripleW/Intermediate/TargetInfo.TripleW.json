@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TripleW",
+			"Path": "B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Source\\TripleW.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TripleWEditor",
+			"Path": "B:\\HardDrive_Documents\\GitHub\\TripleW\\TripleW\\Source\\TripleWEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
